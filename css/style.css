@@ -1,0 +1,141 @@
+
+
+body{
+  line-height: 1.6;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  font-size: 16px;
+  display: block;
+  position: relative;
+}
+
+/* This makes the background transparent */
+body::after {
+  content: "";
+  background: url(https://cdn.pixabay.com/photo/2012/12/06/06/27/paper-68829_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.subtitle{
+  margin: 0;
+  text-align: center;
+
+}
+/* The main subject */
+h1 {
+  font-family: 'Satisfy','Lobster', cursive;
+  font-size: 3rem;
+  margin: 0;
+  padding-top: 25px;
+}
+
+/* The main picture and caption */
+figure{
+  display: block;
+  max-width: 929px;
+  margin: auto;
+  padding: 0 25px;
+}
+img{
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  -webkit-box-shadow: 2px 2px 3px  #696969;
+  -moz-box-shadow:    2px 2px 3px  #696969;
+  box-shadow:         2px 2px 3px  #696969;
+
+}
+figcaption{
+  text-align: center;
+  font-size: .875rem;
+
+}
+/* Information of the subject */
+section{
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  padding: 0 25px;
+
+}
+h2{
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+li{
+  padding-bottom: 10px;
+
+}
+
+/* formats the block quote for small screens */
+.block-quote{
+  margin: 0 15px 0 15px;
+
+}
+blockquote{
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    padding: 0 25px;
+    background-color: rgba(192,192,192,.5);
+    border-radius: 5px 30px;
+    box-shadow: 5px 5px 5px #A0A0A0;
+
+}
+
+p{
+  margin: 0;
+  margin: 0 0 0 0;
+  text-align: center;
+  padding: 0 25px;
+  font-size: 1.2rem;
+}
+
+/* Link colors and format */
+a{
+  text-decoration: none;
+  margin-bottom: 25px;
+  color: #3F6397;
+}
+a:hover{
+  color: #6B2FAF;
+}
+
+bottom-margin{
+  padding-bottom: 10px;
+
+}
+
+
+/* Formats the starting font size */
+
+@media only screen and (min-width: 630px){
+
+    body{
+      font-size: 17px;
+    }
+
+}
+
+@media only screen and (min-width: 944px){
+
+    body{
+      font-size: 18px;
+    }
+
+}
