@@ -13,7 +13,7 @@ body{
 /* This makes the background transparent */
 body::after {
   content: "";
-  background: url(https://cdn.pixabay.com/photo/2012/12/06/06/27/paper-68829_960_720.jpg);
+  background: url(img/paper.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-size: 100% 100%;
